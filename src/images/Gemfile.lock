@@ -3,9 +3,11 @@ GEM
   specs:
     awesome_print (1.8.0)
     dotenv (2.6.0)
-    mini_portile2 (2.4.0)
-    nokogiri (1.9.1)
-      mini_portile2 (~> 2.4.0)
+    mini_portile2 (2.5.1)
+    nokogiri (1.11.4)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    racc (1.5.2)
     rmagick (2.16.0)
 
 PLATFORMS
@@ -14,7 +16,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   dotenv
-  nokogiri (~> 1.9.1)
+  nokogiri (~> 1.11.4)
   rmagick
 
 BUNDLED WITH
